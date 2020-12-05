@@ -1,0 +1,85 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: $dark-background-color;
+
+  .logo {
+    margin-bottom: 20px;
+    color: $white-color;
+  }
+
+  .social-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 1.143;
+    text-transform: uppercase;
+    color: $white-color;
+  }
+
+  .social-list {
+    display: inline-flex;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+
+    & > li:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+
+  .social-list-wrap {
+    @media screen and (max-width: 1199px) {
+      margin-bottom: 60px;
+    }
+    @media screen and (min-width: 1200px) {
+      margin-right: 93px;
+    }
+  }
+}
+
+.footer-container {
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+}
+
+.footer-adress {
+  @media screen and (mix-width: 1200px) {
+    margin-right: 70px;
+  }
+}
+
+.adress-list {
+  list-style: none;
+
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 60px;
+  }
+}
+
+.adress-item {
+  &:not(:last-child) {
+    margin-bottom: 8px;
+  }
+  @media screen and (mix-width: 1200px) {
+    &:not(:last-child) {
+      margin-bottom: 9px;
+    }
+  }
+}
+
+.adress-list .adress-item {
+  line-height: 1.714;
+  color: $white-color;
+}
+
+.adress-item .adress-link {
+  line-height: 1.714;
+  color: var(--opacity-white-color);
+}

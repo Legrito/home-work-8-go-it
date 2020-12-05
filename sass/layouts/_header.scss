@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  text-align: center;
+  border-bottom: 1px solid #ececec;
+
+  @media screen and (max-width: 480px) {
+    position: relative;
+    flex-direction: column;
+    max-width: 480px;
+    min-height: 60px;
+  }
+}
+
+.menu-container {
+  text-align: center;
+  background-color: #fff;
+
+  @media screen and (max-width: 767px) {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 100%;
+  }
+
+  &.is-open {
+    display: block;
+  }
+}

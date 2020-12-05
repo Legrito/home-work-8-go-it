@@ -1,0 +1,17 @@
+.logo {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Raleway", "Oleo Script", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.268;
+  color: $black-text-color;
+}
+
+.logo:focus {
+  outline-color: $accent-color;
+}
+
+.logo-blue {
+  color: $accent-color;
+}
