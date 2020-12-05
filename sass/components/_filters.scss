@@ -6,6 +6,10 @@
   flex-wrap: wrap;
   align-items: center;
 
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+  }
+
   & .button {
     box-sizing: inline-box;
     margin-right: 8px;
@@ -27,9 +31,6 @@
 
     @media screen and (max-width: 767px) {
       margin-bottom: 15px;
-    }
-    @media screen and (min-width: 768px) {
-      justify-content: center;
     }
 
     &:hover,

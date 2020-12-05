@@ -83,7 +83,7 @@ address {
   margin: 0;
   padding: 0;
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -702,6 +702,12 @@ address {
   align-items: center;
 }
 
+@media screen and (min-width: 768px) {
+  .filters-list {
+    justify-content: center;
+  }
+}
+
 .filters-list .button {
   box-sizing: inline-box;
   margin-right: 8px;
@@ -725,12 +731,6 @@ address {
 @media screen and (max-width: 767px) {
   .filters-list .button {
     margin-bottom: 15px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .filters-list .button {
-    justify-content: center;
   }
 }
 
