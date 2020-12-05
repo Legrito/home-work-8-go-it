@@ -1,16 +1,3 @@
-.submit-container {
-  margin: 0;
-}
-.footer .submit-wrap {
-  @media screen and (min-width: 1200px) {
-    display: flex;
-    justify-content: flex-end;
-    align-items: baseline;
-    flex-wrap: nowrap;
-    margin-top: 20px;
-  }
-}
-
 .submit {
   @media screen and (min-width: 1200px) {
     display: flex;

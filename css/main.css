@@ -629,20 +629,6 @@ address {
   outline-color: #2196f3;
 }
 
-.submit-container {
-  margin: 0;
-}
-
-@media screen and (min-width: 1200px) {
-  .footer .submit-wrap {
-    display: flex;
-    justify-content: flex-end;
-    align-items: baseline;
-    flex-wrap: nowrap;
-    margin-top: 20px;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .submit {
     display: flex;
@@ -866,6 +852,12 @@ address {
   background-repeat: no-repeat;
   background-size: auto 70px;
   background-position: center center;
+}
+
+@media screen and (max-width: 768px) {
+  .benefit .item:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1107,7 +1099,7 @@ address {
 
 @media screen and (min-width: 1200px) {
   .footer .social-list-wrap {
-    margin-right: 93px;
+    margin-left: 70px;
   }
 }
 
@@ -1125,9 +1117,12 @@ address {
   }
 }
 
-@media screen and (mix-width: 1200px) {
-  .footer-adress {
-    margin-right: 70px;
+@media screen and (min-width: 768px) {
+  .adress-social-wrap {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    flex-wrap: nowrap;
   }
 }
 
@@ -1159,5 +1154,19 @@ address {
 .adress-item .adress-link {
   line-height: 1.714;
   color: var(--opacity-white-color);
+}
+
+.submit-container {
+  margin: 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer .submit-wrap {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
