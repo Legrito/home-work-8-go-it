@@ -10,17 +10,28 @@
     url(../img/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
+
+  .container {
+    padding: 0;
+  }
 }
 
 .hero .container {
-  max-width: 696px;
+  max-width: 360px;
+  @media screen and (min-width: 1200px) {
+    max-width: 696px;
+  }
 }
 .hero-title {
   margin-bottom: 30px;
-  font-size: 44px;
+  font-size: 26px;
+  line-height: 1.615;
   font-weight: 900;
   text-transform: uppercase;
-  line-height: 1.364;
   letter-spacing: 0.06em;
   color: $white-color;
+  @media screen and (min-width: 1200px) {
+    font-size: 44px;
+    line-height: 1.364;
+  }
 }

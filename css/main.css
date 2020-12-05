@@ -297,7 +297,7 @@ address {
   right: 0;
   bottom: 0;
   padding: 93px 15px;
-  overflow-y: scroll;
+  overflow: hidden;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
   transition-property: opacity;
@@ -320,12 +320,19 @@ address {
   margin: 0;
   padding: 40px;
   width: 100%;
-  max-width: 528px;
+  max-width: 450px;
   height: auto;
+  overflow-y: scroll;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   z-index: 105;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    max-width: 528px;
+  }
 }
 
 .btn-close {
@@ -564,9 +571,23 @@ address {
   background-repeat: no-repeat;
 }
 
+@media screen and (max-width: 1199px) {
+  .agreement-text {
+    font-size: 12px;
+    line-height: 1.2;
+  }
+}
+
 .agreement-link {
   text-decoration: underline;
   color: #2196f3;
+}
+
+@media screen and (max-width: 1199px) {
+  .agreement-link {
+    font-size: 12px;
+    line-height: 1.2;
+  }
 }
 
 .social-list {
@@ -807,6 +828,47 @@ address {
 
 .menu-container.is-open {
   display: block;
+}
+
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  height: 600px;
+  text-align: center;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero .container {
+  padding: 0;
+}
+
+.hero .container {
+  max-width: 360px;
+}
+
+@media screen and (min-width: 1200px) {
+  .hero .container {
+    max-width: 696px;
+  }
+}
+
+.hero-title {
+  margin-bottom: 30px;
+  font-size: 26px;
+  line-height: 1.615;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-title {
+    font-size: 44px;
+    line-height: 1.364;
+  }
 }
 
 .benefit {

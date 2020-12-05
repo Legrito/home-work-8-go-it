@@ -145,7 +145,18 @@
   background-image: url(../img/icons/submit-check.svg);
   background-repeat: no-repeat;
 }
+
+.agreement-text {
+  @media screen and (max-width: 1199px) {
+    font-size: 12px;
+    line-height: 1.2;
+  }
+}
 .agreement-link {
   text-decoration: underline;
   color: $accent-color;
+  @media screen and (max-width: 1199px) {
+    font-size: 12px;
+    line-height: 1.2;
+  }
 }
