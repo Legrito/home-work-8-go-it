@@ -37,10 +37,6 @@
   border-radius: 4px;
   z-index: 105;
 
-  @media screen and (max-width: 1199px) {
-    overflow-y: scroll;
-  }
-
   @media screen and (min-width: 1200px) {
     max-width: 528px;
   }

@@ -1,9 +1,11 @@
 .header {
   @media screen and (max-width: 480px) {
     position: relative;
+    z-index: 55;
     flex-direction: column;
     max-width: 480px;
     min-height: 60px;
+    border-bottom: 1px solid #ececec;
   }
 
   @media screen and (min-width: 768px) {
