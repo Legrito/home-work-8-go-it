@@ -1,10 +1,25 @@
+.navigation {
+  @media screen and (min-width: 768px) {
+  }
+}
+
 .site-nav {
   display: flex;
   flex-direction: column;
   align-self: center;
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
 
   .item:not(:last-child) {
     margin-bottom: 40px;
+
+    @media screen and (min-width: 768px) {
+      margin: 0;
+      &:not(:last-child) {
+        margin-right: 50px;
+      }
+    }
   }
 
   .link {

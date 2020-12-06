@@ -1,15 +1,36 @@
 .header {
-  display: flex;
-  align-items: center;
-  margin: 0;
-  text-align: center;
-  border-bottom: 1px solid #ececec;
-
+  background-color: tomato;
   @media screen and (max-width: 480px) {
     position: relative;
     flex-direction: column;
     max-width: 480px;
     min-height: 60px;
+  }
+  @media screen and (min-width: 768px) {
+    margin: 0;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    text-align: center;
+    border-bottom: 1px solid #ececec;
+  }
+  @media screen and (min-width: 1200px) {
+    margin: 0;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    text-align: center;
+    border-bottom: 1px solid #ececec;
+  }
+
+  .container {
+    @media screen and (min-width: 768px) {
+      display: inline-flex;
+      align-items: center;
+    }
+  }
+
+  .logo @media screen and (min-width: 768px) {
+    display: inline-block;
+    margin-right: 88px;
   }
 }
 
@@ -29,5 +50,14 @@
 
   &.is-open {
     display: block;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    position: static;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    width: auto;
   }
 }
