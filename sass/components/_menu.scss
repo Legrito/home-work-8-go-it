@@ -12,6 +12,10 @@
     flex-direction: row;
   }
 
+  @media screen and (min-width: 1200px) {
+    margin-right: 305px;
+  }
+
   .item:not(:last-child) {
     margin-bottom: 40px;
 

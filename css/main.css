@@ -207,6 +207,12 @@ address {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .site-nav {
+    margin-right: 305px;
+  }
+}
+
 .site-nav .item:not(:last-child) {
   margin-bottom: 40px;
 }
@@ -931,6 +937,12 @@ address {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header .container {
+    justify-content: space-between;
   }
 }
 
