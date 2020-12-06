@@ -10,7 +10,17 @@
 
   @media screen and (min-width: 768px) {
     position: static;
+    display: flex;
+    justify-content: flex-start;
     padding: 0;
+    max-width: 134px;
+  }
+  @media screen and (min-width: 1200px) {
+    position: static;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    max-width: 145px;
   }
 
   .btn {
@@ -33,6 +43,7 @@
     }
 
     @media screen and (min-width: 768px) {
+      position: absolute;
       display: none;
     }
   }
