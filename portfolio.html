@@ -17,44 +17,63 @@
   <body>
     <!-- Хедер -->
     <header class="header">
-      <div class="container flex">
-        <div>
-          <nav class="main-nav">
-            <div>
-              <a class="logo" href="./index.html">
-                <span class="logo-blue">Web</span>Studio</a
-              >
-            </div>
-            <div>
-              <ul class="site-nav list">
-                <li><a class="link" href="./index.html">Студия</a></li>
-                <li>
-                  <a class="link current" href="./portfolio.html">Портфолио</a>
-                </li>
-                <li><a class="link" href="#contacts">Контакты</a></li>
-              </ul>
-            </div>
-          </nav>
+      <div class="container">
+        <div class="mobile-menu">
+          <span class="logo"> <span class="logo-blue">Web</span>Studio</span>
+          <button type="button" class="btn" data-menu-button>
+            <svg
+              class="burger"
+              width="40"
+              height="40"
+              aria-label="Переключатель мобильного меню"
+            >
+              <use
+                class="icon-menu"
+                href="./img/icons/sprite.svg#icon-menu-40px"
+              ></use>
+              <use
+                class="icon-cross"
+                href="./img/icons/sprite.svg#icon-close-40px"
+              ></use>
+            </svg>
+          </button>
         </div>
-        <div>
-          <ul class="contacts list">
-            <li>
-              <a class="link" href="mailto:info@devstudio.com">
-                <svg class="mail-icon">
-                  <use href="./img/icons/sprite.svg#icon-contacts-mail"></use>
-                </svg>
-                info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a class="link phone" href="tel:+380961111111">
-                <svg class="phone-icon">
-                  <use href="./img/icons/sprite.svg#icon-contacts-phone"></use>
-                </svg>
-                +38 096 111 11 11</a
-              >
-            </li>
-          </ul>
+        <div class="menu-container" id="menu-container" data-menu>
+          <nav class="navigation">
+            <ul class="site-nav list">
+              <li class="item">
+                <a class="link current" href="./index.html">Студия</a>
+              </li>
+              <li class="item">
+                <a class="link" href="./portfolio.html">Портфолио</a>
+              </li>
+              <li class="item">
+                <a class="link" href="#contacts">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="contacts">
+            <ul class="contacts-list list">
+              <li class="item">
+                <a class="link" href="mailto:info@devstudio.com">
+                  <svg class="mail-icon" width="12">
+                    <use href="./img/icons/sprite.svg#icon-contacts-mail"></use>
+                  </svg>
+                  info@devstudio.com</a
+                >
+              </li>
+              <li class="item">
+                <a class="link phone" href="tel:+380961111111">
+                  <svg class="phone-icon" width="12">
+                    <use
+                      href="./img/icons/sprite.svg#icon-contacts-phone"
+                    ></use>
+                  </svg>
+                  +38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
@@ -99,13 +118,12 @@
                           ./img/portfolio/mob/techno-480.jpg    1x,
                           ./img/portfolio/mob/techno-480@2x.jpg 2x
                         "
-                        media="(man-width: 767px)"
+                        media="(max-width: 767px)"
                       />
                       <img
                         class="photo"
                         src="./img/portfolio/desktop/techno.jpg"
-                        width="370"
-                        height="294"
+                        width="450"
                         alt="Технокряк"
                       />
                     </picture>
@@ -145,13 +163,12 @@
                           ./img/portfolio/mob/ball-480.jpg    1x,
                           ./img/portfolio/mob/ball-480@2x.jpg 2x
                         "
-                        media="(man-width: 767px)"
+                        media="(max-width: 767px)"
                       />
                       <img
                         class="photo"
                         src="./img/portfolio/desktop/ball.jpg"
-                        width="370"
-                        height="294"
+                        width="450"
                         alt="Постер New Orlean vs Golden Star"
                       />
                     </picture>
@@ -193,13 +210,12 @@
                           ./img/portfolio/mob/seafood-480.jpg    1x,
                           ./img/portfolio/mob/seafood-480@2x.jpg 2x
                         "
-                        media="(man-width: 767px)"
+                        media="(max-width: 767px)"
                       />
                       <img
                         class="photo"
                         src="./img/portfolio/desktop/seafood.jpg"
-                        width="370"
-                        height="294"
+                        width="450"
                         alt="Ресторан Seafood"
                       />
                     </picture>
@@ -239,13 +255,12 @@
                           ./img/portfolio/mob/prime-480.jpg    1x,
                           ./img/portfolio/mob/prime-480@2x.jpg 2x
                         "
-                        media="(man-width: 767px)"
+                        media="(max-width: 767px)"
                       />
                       <img
                         class="photo"
                         src="./img/portfolio/desktop/prime.jpg"
-                        width="370"
-                        height="294"
+                        width="450"
                         alt="Проект Prime"
                       />
                     </picture>
@@ -286,13 +301,12 @@
                           ./img/portfolio/mob/boxes-480.jpg    1x,
                           ./img/portfolio/mob/boxes-480@2x.jpg 2x
                         "
-                        media="(man-width: 767px)"
+                        media="(max-width: 767px)"
                       />
                       <img
                         class="photo"
                         src="./img/portfolio/desktop/boxes.jpg"
-                        width="370"
-                        height="294"
+                        width="450"
                         alt="Проект Boxes"
                       />
                     </picture>
@@ -332,13 +346,12 @@
                           ./img/portfolio/mob/monitor-480.jpg    1x,
                           ./img/portfolio/mob/monitor-480@2x.jpg 2x
                         "
-                        media="(man-width: 767px)"
+                        media="(max-width: 767px)"
                       />
                       <img
                         class="photo"
                         src="./img/portfolio/desktop/monitor.jpg"
-                        width="370"
-                        height="294"
+                        width="450"
                         alt="Inspiration has no Borders"
                       />
                     </picture>
@@ -378,13 +391,12 @@
                           ./img/portfolio/mob/limited-480.jpg    1x,
                           ./img/portfolio/mob/limited-480@2x.jpg 2x
                         "
-                        media="(man-width: 767px)"
+                        media="(max-width: 767px)"
                       />
                       <img
                         class="photo"
                         src="./img/portfolio/desktop/limited.jpg"
-                        width="370"
-                        height="294"
+                        width="450"
                         alt="Издание Limited Edition"
                       />
                     </picture>
@@ -424,13 +436,12 @@
                           ./img/portfolio/mob/lab-480.jpg    1x,
                           ./img/portfolio/mob/lab-480@2x.jpg 2x
                         "
-                        media="(man-width: 767px)"
+                        media="(max-width: 767px)"
                       />
                       <img
                         class="photo"
                         src="./img/portfolio/desktop/lab.jpg"
-                        width="370"
-                        height="294"
+                        width="450"
                         alt="Проект LAB"
                       />
                     </picture>
@@ -470,13 +481,12 @@
                           ./img/portfolio/mob/growing-480.jpg    1x,
                           ./img/portfolio/mob/growing-480@2x.jpg 2x
                         "
-                        media="(man-width: 767px)"
+                        media="(max-width: 767px)"
                       />
                       <img
                         class="photo"
                         src="./img/portfolio/desktop/growing.jpg"
-                        width="370"
-                        height="294"
+                        width="450"
                         alt="Growing Business"
                       />
                     </picture>
@@ -599,5 +609,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
