@@ -83,3 +83,11 @@ address {
     align-items: center;
   }
 }
+
+.examples.list.flex {
+  @media screen and(min-width: 768px) and (max-width: 1199px) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+}
