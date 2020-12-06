@@ -21,6 +21,10 @@ body {
   letter-spacing: 0.03em;
   background-color: $white-color;
   color: $primary-text-color;
+
+  &.modal-open {
+    overflow: hidden;
+  }
 }
 
 h1,

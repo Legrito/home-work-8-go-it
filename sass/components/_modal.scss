@@ -6,13 +6,13 @@
   right: 0;
   bottom: 0;
   padding: 93px 15px;
-  overflow: hidden;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
   transition-property: opacity;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0;
+  overflow-y: scroll;
 }
 
 .backdrop.is-hidden {
