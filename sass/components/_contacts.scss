@@ -90,10 +90,14 @@
     transition-delay: 0;
   }
 
-  &:hover .mail-icon,
-  &:focus .mail-icon,
-  &:hover .phone-icon,
-  &:focus .phone-icon {
+  &.phone:hover .phone-icon,
+  &.phone:focus .phone-icon {
+    fill: $accent-color;
+    outline-color: $accent-color;
+  }
+
+  &.mail:hover .mail-icon,
+  &.mail:focus .mail-icon {
     fill: $accent-color;
     outline-color: $accent-color;
   }
