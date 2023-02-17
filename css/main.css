@@ -938,6 +938,8 @@ address {
 
 @media screen and (max-width: 767px) {
   .header {
+    display: flex;
+    justify-content: center;
     position: relative;
     z-index: 55;
     flex-direction: column;
@@ -968,10 +970,17 @@ address {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
   .header .container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header .container {
     justify-content: center;
   }
 }
@@ -1560,7 +1569,7 @@ address {
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 63px 24px;
+  padding: 30px 24px 63px;
   margin: 0;
   opacity: 0;
   transform: translateY(100%);
