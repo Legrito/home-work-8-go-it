@@ -15,7 +15,7 @@
     <title>Document</title>
   </head>
   <body>
-    <!-- Хедер -->
+    <!-- Header -->
     <header class="header">
       <div class="container">
         <div class="mobile-menu">
@@ -84,18 +84,18 @@
           <h1 class="visually-hidden">Work examples</h1>
           <!-- Filters -->
           <div class="filters">
-            <ul class="filters-list list">
-              <li><button class="button">All</button></li>
-              <li><button class="button">Web-sites</button></li>
-              <li><button class="button">Applications</button></li>
-              <li><button class="button">Design</button></li>
-              <li><button class="button">Marketing</button></li>
+            <ul class="filters-list list" id="filters">
+              <li><button class="button" data-filter="all">All</button></li>
+              <li><button class="button" data-filter="sites">Web-sites</button></li>
+              <li><button class="button" data-filter="apps">Applications</button></li>
+              <li><button class="button" data-filter="design">Design</button></li>
+              <li><button class="button" data-filter="marketing">Marketing</button></li>
             </ul>
           </div>
           <!-- Work examples -->
           <div class="examples-container">
-            <ul class="examples list flex">
-              <li class="examples-item">
+            <ul class="examples list flex" id="examples-list">
+              <li class="examples-item" data-type="sites">
                 <a class="examples-link link" href="#">
                   <div class="examples-wrap">
                     <picture>
@@ -142,7 +142,7 @@
                   </div>
                 </a>
               </li>
-              <li class="examples-item">
+              <li class="examples-item" data-type="design">
                 <a class="examples-link link" href="#">
                   <div class="examples-wrap">
                     <picture>
@@ -191,7 +191,7 @@
                   </div>
                 </a>
               </li>
-              <li class="examples-item">
+              <li class="examples-item" data-type="apps">
                 <a class="examples-link link" href="#">
                   <div class="examples-wrap">
                     <picture>
@@ -238,7 +238,7 @@
                   </div>
                 </a>
               </li>
-              <li class="examples-item">
+              <li class="examples-item" data-type="marketing">
                 <a class="examples-link link" href="#">
                   <div class="examples-wrap">
                     <picture>
@@ -285,7 +285,7 @@
                   </div>
                 </a>
               </li>
-              <li class="examples-item">
+              <li class="examples-item" data-type="apps">
                 <a class="examples-link link" href="#">
                   <div class="examples-wrap">
                     <div class="test"></div>
@@ -333,7 +333,7 @@
                   </div>
                 </a>
               </li>
-              <li class="examples-item">
+              <li class="examples-item" data-type="sites">
                 <a class="examples-link link" href="#">
                   <div class="examples-wrap">
                     <picture>
@@ -380,7 +380,7 @@
                   </div>
                 </a>
               </li>
-              <li class="examples-item">
+              <li class="examples-item" data-type="design">
                 <a class="examples-link link" href="#">
                   <div class="examples-wrap">
                     <picture>
@@ -427,7 +427,7 @@
                   </div>
                 </a>
               </li>
-              <li class="examples-item">
+              <li class="examples-item" data-type="marketing">
                 <a class="examples-link link" href="#">
                   <div class="examples-wrap">
                     <picture>
@@ -474,7 +474,7 @@
                   </div>
                 </a>
               </li>
-              <li class="examples-item">
+              <li class="examples-item" data-type="apps">
                 <a class="examples-link link" href="#">
                   <div class="examples-wrap">
                     <picture>
@@ -630,5 +630,6 @@
       </div>
     </footer>
     <script src="./js/menu.js"></script>
+    <script src="./js/filters.js"></script>
   </body>
 </html>
