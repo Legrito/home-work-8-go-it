@@ -120,6 +120,7 @@ address {
   font-size: 24px;
   line-height: 1.17;
   color: #000000;
+  cursor: default;
 }
 
 @media screen and (min-width: 1200px) {
@@ -130,11 +131,11 @@ address {
 }
 
 .logo .logo:focus {
-  outline-color: #2196f3;
+  outline-color: #c0014a;
 }
 
 .logo .logo-blue {
-  color: #2196f3;
+  color: #c0014a;
 }
 
 .mobile-menu {
@@ -204,7 +205,7 @@ address {
 }
 
 .mobile-menu .burger:hover, .mobile-menu .burger:focus {
-  fill: #2196f3;
+  fill: #c0014a;
 }
 
 .site-nav {
@@ -268,7 +269,7 @@ address {
   margin-top: 8px;
   width: 100%;
   height: 4px;
-  background-color: #2196f3;
+  background-color: #c0014a;
   border-radius: 2px;
 }
 
@@ -285,12 +286,12 @@ address {
 }
 
 .site-nav .link:hover, .site-nav .link:focus {
-  color: #2196f3;
-  outline-color: #2196f3;
+  color: #c0014a;
+  outline-color: #c0014a;
 }
 
 .site-nav .link.current {
-  color: #2196f3;
+  color: #c0014a;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
@@ -341,8 +342,8 @@ address {
 }
 
 .contacts-list .link:hover, .contacts-list .link:focus {
-  color: #2196f3;
-  outline-color: #2196f3;
+  color: #c0014a;
+  outline-color: #c0014a;
 }
 
 @media screen and (min-width: 768px) {
@@ -391,14 +392,14 @@ address {
 
 .contacts-list.phone:hover .phone-icon,
 .contacts-list.phone:focus .phone-icon {
-  fill: #2196f3;
-  outline-color: #2196f3;
+  fill: #c0014a;
+  outline-color: #c0014a;
 }
 
 .contacts-list.mail:hover .mail-icon,
 .contacts-list.mail:focus .mail-icon {
-  fill: #2196f3;
-  outline-color: #2196f3;
+  fill: #c0014a;
+  outline-color: #c0014a;
 }
 
 .button {
@@ -412,8 +413,9 @@ address {
   font-weight: 700;
   line-height: 1.875;
   letter-spacing: 0.06em;
-  background-color: #2196f3;
+  background-color: #c0014a;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .backdrop {
@@ -472,6 +474,7 @@ address {
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .close-icon {
@@ -484,11 +487,11 @@ address {
 }
 
 .btn-close:hover .close-icon {
-  fill: #2196f3;
+  fill: #c0014a;
 }
 
 .btn-close:focus .close-icon {
-  fill: #2196f3;
+  fill: #c0014a;
 }
 
 .modal-title {
@@ -537,7 +540,7 @@ address {
   line-height: 1.875;
   letter-spacing: 0.06em;
   text-align: center;
-  background-color: #2196f3;
+  background-color: #c0014a;
   color: #ffffff;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -567,12 +570,12 @@ address {
 }
 
 .input-field:hover {
-  border-color: #2196f3;
+  border-color: #c0014a;
 }
 
 .input-field:focus {
   outline: none;
-  border: 1px solid #2196f3;
+  border: 1px solid #c0014a;
   border-radius: 4px;
 }
 
@@ -587,11 +590,11 @@ address {
 }
 
 .input-field:hover + .field-icon {
-  fill: #2196f3;
+  fill: #c0014a;
 }
 
 .input-field:focus + .field-icon {
-  fill: #2196f3;
+  fill: #c0014a;
 }
 
 #user-name + .field-icon {
@@ -640,12 +643,12 @@ address {
 }
 
 #comment:hover {
-  border-color: #2196f3;
+  border-color: #c0014a;
 }
 
 #comment:focus {
   outline: none;
-  border: 1px solid #2196f3;
+  border: 1px solid #c0014a;
   border-radius: 4px;
 }
 
@@ -691,8 +694,8 @@ address {
 }
 
 .checkbox:checked + .check-icon {
-  border-color: #2196f3;
-  background-color: #2196f3;
+  border-color: #c0014a;
+  background-color: #c0014a;
   background-image: url(../img/icons/submit-check.svg);
   background-repeat: no-repeat;
 }
@@ -706,7 +709,7 @@ address {
 
 .agreement-link {
   text-decoration: underline;
-  color: #2196f3;
+  color: #c0014a;
 }
 
 @media screen and (max-width: 1199px) {
@@ -756,14 +759,14 @@ address {
 }
 
 .social.link:hover, .social.link:focus {
-  background-color: #2196f3;
-  outline-color: #2196f3;
+  background-color: #c0014a;
+  outline-color: #c0014a;
 }
 
 .social.link:hover .social-icon,
 .social.link:focus .social-icon {
   fill: #ffffff;
-  outline-color: #2196f3;
+  outline-color: #c0014a;
 }
 
 .footer .social.link {
@@ -772,8 +775,8 @@ address {
 
 .footer .social.link:hover,
 .footer .social.link:focus {
-  background-color: #2196f3;
-  outline-color: #2196f3;
+  background-color: #c0014a;
+  outline-color: #c0014a;
 }
 
 @media screen and (min-width: 1200px) {
@@ -902,8 +905,8 @@ address {
 .filters-list .button:hover, .filters-list .button:focus {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   color: #ffffff;
-  background-color: #2196f3;
-  outline-color: #2196f3;
+  background-color: #c0014a;
+  outline-color: #c0014a;
 }
 
 .section {
@@ -970,9 +973,12 @@ address {
   }
 }
 
+.header .container {
+  display: flex;
+}
+
 @media screen and (max-width: 767px) {
   .header .container {
-    display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
@@ -1318,13 +1324,13 @@ address {
 }
 
 .clients-link:hover, .clients-link:focus {
-  border-color: #2196f3;
-  outline-color: #2196f3;
+  border-color: #c0014a;
+  outline-color: #c0014a;
 }
 
 .clients-link:hover .client-icon,
 .clients-link:focus .client-icon {
-  fill: #2196f3;
+  fill: #c0014a;
 }
 
 .clients-list {
@@ -1477,6 +1483,11 @@ address {
   }
 }
 
+.footer .submit-wrap form input:focus-visible, .footer .submit-wrap form input:focus, .footer .submit-wrap form input:focus-within {
+  outline-color: #c0014a;
+  outline-width: 1px;
+}
+
 .works-examples {
   padding-bottom: 94px;
 }
@@ -1582,13 +1593,13 @@ address {
   line-height: 1.56;
   font-weight: 400;
   color: #ffffff;
-  background-color: rgba(33, 150, 243, 0.9);
+  background-color: rgba(192, 1, 74, 0.9);
 }
 
 .examples-link:hover,
 .examples-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-  outline-color: #2196f3;
+  outline-color: #c0014a;
 }
 
 .examples-link:hover .examples-desc,

@@ -108,4 +108,12 @@
     flex-wrap: nowrap;
     margin-top: 20px;
   }
+  form {
+    input {
+      &:focus-visible, &:focus, &:focus-within {
+        outline-color: $accent-color;
+        outline-width: 1px;
+      }
+    }
+  }
 }
